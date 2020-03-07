@@ -1,0 +1,50 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font: 1em sans-serif;
+  background-color: blue;
+  flex: 50px;
+  max-width:200;
+  height: 300vh;
+  margin-block-end: 1rem;
+  margin-inline-start: 1rem;
+  line-height: 1.25;
+}
+  /*header {
+    background-color: deeppink;
+    width: 100;
+    height: 200ch;
+    border-bottom: 5px;*/
+  
+  h1 { 
+  line-height: 1;
+  text-align: center;
+  color: white;
+  }
+
+   p {
+    text-align: end;
+  } 
+
+   h2 {
+    text-align: left center;
+    color: yellow;
+  }
+  p {
+    text-align: start;
+    color: orange;
+  }
+  img {
+   max-width: 50%;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 1rem;
+    color: orangered;
+}
+
+
+
