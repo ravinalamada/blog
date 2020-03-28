@@ -1,0 +1,28 @@
+body>main{
+    background-image: url("../background.css/grass.jpg");
+    background-repeat: no-repeat;
+    color: yellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-block-start: 14rem;
+    padding-block-end: 14rem;
+    margin-block-end:  0rem;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    margin-block-start: -11.1rem;
+    background-position: center center;
+    background-size: cover;
+    border: 2px solid grey ;
+}
+p>img {
+    width: 217px;
+    height: 296px;
+    bottom: -20%;
+    right: 1%;
+    position: absolute;
+    border: 1px solid;
+}
+p.paragraph {
+    width: 20rem;
+    font-size: 1rem;
+    line-height: 1rem;
+}
