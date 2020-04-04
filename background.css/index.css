@@ -1,3 +1,9 @@
 @import "first-bg.css";
 
-@import "dec2.css";
+@import "body.css";
+
+@import "nav.css";
+
+@import "header.css";
+
+@import "main.css";
