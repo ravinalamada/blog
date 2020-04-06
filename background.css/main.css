@@ -3,6 +3,5 @@ body{
 }
 body>main {
     position: absolute;
-    top: 100%;
     flex-wrap: wrap;
 }
