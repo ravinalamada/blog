@@ -1,7 +1,35 @@
-body{
-    position: relative
+main {
+    padding-block-start: 5rem;
+    
 }
-body>main {
-    position: absolute;
-    flex-wrap: wrap;
+
+p>img {
+    max-width: 20.3%;
+    float: left;
+    border: 3px grey solid;
+    border-radius: 50%;
+    margin-inline-end: 1rem;
 }
+p>img:hover {
+    border-color: purple;
+    
+}
+p:last-child {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    color: black;
+    margin-inline-end: 1rem;
+    width: 40rem; 
+}
+
+p:hover {
+    color: rgb(83, 8, 8);
+}
+
+@media(max-width:150px) {
+    p:last-child {
+        width: 6rem;
+    }
+
+}
+
