@@ -9,7 +9,15 @@ header > nav {
     padding:0;
     display: flex;
     flex-wrap: wrap;
+    transition: all 2s;
   }
+
+  a:hover {
+    transition: color 0.1s;
+    color: yellow;
+  }
+ 
+
   
   
   
@@ -17,7 +25,7 @@ header > nav {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1rem;
-    color: black;
+    color: red;
     text-decoration: none;
   }
 

@@ -1,4 +1,4 @@
-body{
+html{
     background-image: 
                       url("../background.css/grass.jpg");
     background-repeat: no-repeat;
@@ -11,18 +11,7 @@ body{
     margin-block-start: -11.1rem;
     background-position: center center;
     background-size: cover;
-    border: 2px thick hotpink ;
 }
-p>img {
-    max-width: 16.3%;
-    float: left;
-    border: 1px solid;
-    margin-inline-end: 1rem;
-}
-p:last-child {
-    font-size: 1.1rem;
-    line-height: 1.5rem;
-    color: white;
-    margin-inline-end: 1rem;
-    
+.about h1:hover {
+    color: indigo;
 }
